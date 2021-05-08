@@ -1,0 +1,1164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@100&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root{
+  --green:#40916c;
+  --blue:#264653;
+  --gray:#bfbdc1;
+  --darkgray:#adb5bd;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+.header-index{
+  background-color: var(--blue);
+  text-align: center;
+}
+
+.header-menu{
+  display: flex;
+  justify-content: space-around;
+  height:25vh;
+  margin:0 12rem 0;
+  flex-wrap: wrap;
+}
+
+
+.logo{
+  border-top: solid 5px var(--green);
+  font-size: 50px;
+  text-align: left;
+  padding-top: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  line-height:0.9;
+}
+
+.logo:hover{
+  color: var(--green);
+}
+.nav{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.date{
+  font-size: 20px;
+  margin-left: 175px;
+  color: var(--green)
+}
+.nav-links{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30vw;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top:20px;
+  font-weight: 500;
+}
+
+.nav-links li a{
+  color: #fff;
+}
+
+.nav-links li a:hover{
+  color: var(--green)
+}
+
+.hamburger{
+  background-color: transparent;
+  border:0;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger:focus{
+  outline:none;
+}
+.register-home{
+  text-align: center;
+  background-color: var(--blue);;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  padding-top:10px;
+}
+
+.register-home h4{
+  font-size: 35px;
+  font-weight: 200;
+  color:  var(--green);
+}
+
+.register-home p{
+  font-size: 20px;
+  width: 50%;
+  line-height:2;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.register-link{
+  border: solid 1px #fff;
+  padding: 20px;
+  border-radius:5px;
+  color: #fff;
+  font-size: 20px;
+  margin: 20px 0 75px;
+}
+
+.register-link:hover{
+  color:  var(--green);
+  background-color:#fff;
+}
+
+.main-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 30px 10rem;
+
+}
+
+.article img{
+  width: 300px;
+  height:200px;
+  border-radius:5px;
+}
+
+
+
+.article h4{
+  color:var(--darkgray);
+  margin-bottom:20px;
+  font-size:15px;
+  font-weight: 400;
+}
+
+.article h2{
+  color:var(--darkgray);
+  margin:20px 0 20px;
+  font-size:20px;
+  font-weight: 400;
+}
+
+.article h2 a{
+  color:gray;
+}
+.article h2 a:hover{
+  color:var(--darkgray);
+}
+.article p{
+  color:gray;
+  width: 60%;
+  font-size:15px;
+  line-height:1.5;
+}
+
+.footer{
+  background-color:var(--blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:15vh;
+  padding:0 50px;
+  margin-top: 70px;
+}
+.footer p{
+  color:var(--green);
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer-items{
+  display: flex;
+}
+.footer-items a{
+  text-decoration:none;
+  color:#fff;
+  padding:10px;
+  font-size: 15px;;
+}
+
+.footer-items a:hover{
+  color: var(--green);
+}
+
+/* Speakers */
+
+.speakers-banner{
+  height:30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(64,145,108);
+  background: rgb(141,194,111);
+background: linear-gradient(152deg, rgba(141,194,111,0.3956933115042892) 53%, rgba(212,224,52,0.40129555240064774) 96%);
+}
+.speakers-banner h2{
+  font-size: 35px;
+  color: var(--green)
+}
+.speakers-banner p{
+  width: 60%;
+  text-align: center;
+  line-height:1.6;
+  padding:15px;
+  color:gray;
+  font-size: 20px;
+}
+
+.aaroni{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:50px 300px;
+}
+
+.aaroni-context{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.aaroni-context h3{
+  font-size: 25px;
+  color: var(--green);
+  font-weight:200;
+  margin-bottom:10px;
+}
+
+.aaroni-context h5{
+  font-size: 15px;
+  color: gray;
+  font-weight:200;
+  margin:20px 0px;
+}
+.aaroni-context p{
+  width: 90%;
+  font-size: 16px;
+  color:var(--gray);
+}
+
+.aaroni-context a{
+  text-decoration: none;
+  color: var(--green)
+}
+.aaroni-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.aaroni-profile img{
+  border-radius:50%;
+  width: 150px;
+}
+
+.aaroni-profile a{
+  color: var(--green);
+  margin-top:10px;
+}
+
+/* speaker-adam */
+.adam{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:50px 300px;
+}
+
+.adam-context{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.adam-context h3{
+  font-size: 25px;
+  color: var(--green);
+  font-weight:200;
+  margin-bottom:10px;
+}
+
+.adam-context h5{
+  font-size: 15px;
+  color: gray;
+  font-weight:200;
+  margin:20px 0px;
+}
+.adam-context p{
+  width: 90%;
+  font-size: 16px;
+  color:var(--gray);
+}
+.adam-context p span{
+  color:var(--gray);
+}
+
+.adam-context a{
+  text-decoration: none;
+  color: var(--green)
+}
+.adam-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.adam-profile img{
+  border-radius:50%;
+  width: 150px;
+}
+
+.adam-profile a{
+  color: var(--green);
+  margin-top:10px;
+}
+
+/* Ajself */
+
+.ajself{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:50px 300px;
+}
+
+.ajself-context{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.ajself-context h3{
+  font-size: 25px;
+  color: var(--green);
+  font-weight:200;
+  margin-bottom:10px;
+}
+
+.ajself-context h5{
+  font-size: 15px;
+  color: gray;
+  font-weight:200;
+  margin-bottom: 20px;
+}
+.ajself-context p{
+  width: 90%;
+  font-size: 16px;
+  color:var(--gray);
+}
+
+.about{
+  margin: 10px 0px;
+}
+.ajself-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.ajself-profile img{
+  border-radius:50%;
+  width: 150px;
+}
+
+.ajself-profile a{
+  color: var(--green);
+  margin-top:10px;
+}
+
+
+/* Arman Ghosh */
+
+.armanghosh{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:50px 300px;
+}
+
+.armanghosh-context{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.armanghosh-context h3{
+  font-size: 25px;
+  color: var(--green);
+  font-weight:200;
+  margin-bottom:10px;
+}
+
+.armanghosh-context h5{
+  font-size: 15px;
+  color: gray;
+  font-weight:200;
+  margin-bottom: 20px;
+}
+.armanghosh-context p{
+  width: 90%;
+  font-size: 16px;
+  color:var(--gray);
+}
+
+.about{
+  margin: 10px 0px;
+}
+.armanghosh-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.armanghosh-profile img{
+  border-radius:50%;
+  width: 150px;
+}
+
+.armanghosh-profile a{
+  color: var(--green);
+  margin-top:10px;
+}
+
+/* speaker-bermon */
+.bermon{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:50px 300px;
+}
+
+.bermon-context{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.bermon-context h3{
+  font-size: 25px;
+  color: var(--green);
+  font-weight:200;
+  margin-bottom:10px;
+}
+
+.bermon-context h5{
+  font-size: 15px;
+  color: gray;
+  font-weight:200;
+  margin-bottom: 20px;
+}
+.bermon-context p{
+  width: 90%;
+  font-size: 16px;
+  color:var(--gray);
+}
+
+.about{
+  margin: 10px 0px;
+}
+.bermon-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.bermon-profile img{
+  border-radius:50%;
+  width: 150px;
+}
+
+.bermon-profile a{
+  color: var(--green);
+  margin-top:10px;
+}
+
+/* shayhowe */
+.shay{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:50px 300px;
+}
+
+.shay-context{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.shay-context h3{
+  font-size: 25px;
+  color: var(--green);
+  font-weight:200;
+  margin-bottom:10px;
+}
+
+.shay-context h5{
+  font-size: 15px;
+  color: gray;
+  font-weight:200;
+  margin-bottom: 20px;
+}
+.shay-context p{
+  width: 90%;
+  font-size: 16px;
+  color:var(--gray);
+}
+
+.about{
+  margin: 10px 0px;
+}
+.shay-profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.shay-profile img{
+  border-radius:50%;
+  width: 150px;
+}
+
+.shay-profile a{
+  color: var(--green);
+  margin-top:10px;
+}
+
+/* Register-Page */
+
+.register-banner{
+  height:30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(64,145,108);
+  background: rgb(141,194,111);
+background: linear-gradient(152deg, rgba(141,194,111,0.3956933115042892) 53%, rgba(212,224,52,0.40129555240064774) 96%);
+}
+.register-banner h2{
+  font-size: 35px;
+  color: var(--green)
+}
+.register-banner p{
+  width: 60%;
+  text-align: center;
+  line-height:1.6;
+  padding:15px;
+  color:gray;
+  font-size: 20px;
+}
+
+.main{
+  display: flex;
+  margin:100px 300px;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pass-description h2{
+  font-size: 25px;
+  color:var(--green);
+  margin-bottom: 10px;
+}
+
+.pass-description h5{
+  color: var(--gray);
+  margin-bottom: 25px;
+}
+
+.pass-description p{
+  line-height:1.5;
+  width:80%;
+  color:gray;
+  margin-bottom: 20px;
+}
+
+.main-content h3{
+  font-size:20px;
+  color:var(--green);
+  margin-bottom:25px;
+}
+
+.main-content ul{
+  list-style-type: square;
+}
+
+.main-content ul li{
+  margin-left: 30px;
+  color:gray;
+  line-height:1.5;
+}
+
+.name{
+  font-size: 20px;
+  color: gray;
+}
+#name{
+  width: 300px;
+  height:35px;
+  margin:10px 0 25px;
+  
+}
+#name:focus{
+  outline:none;
+}
+
+
+.email{
+  font-size: 20px;
+  color: gray;
+}
+#email{
+  width: 300px;
+  height:35px;
+  margin:10px 0 25px;
+  color: gray;
+}
+#email:focus{
+  outline:none;
+}
+
+#passes{
+  font-size:15px;
+  height:30px;
+  margin-bottom: 30px;
+  padding-right: 150px;
+}
+
+.comments{
+  font-size: 18px;
+  color: gray;
+}
+
+#comments{
+  margin: 10px 0 20px;
+}
+#comments:focus{
+  outline:none;
+}
+
+.form-content button{
+  background-color:#548f71;
+  height:50px;
+  width:150px;
+  color:white;
+  font-size: 20px;
+  border: none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.form-content button:hover{
+  background-color:#68af8a;
+}
+
+::placeholder {
+  color: GRAY;
+  opacity: 0.8; 
+  padding-left: 10px;
+  font-size: 15px;
+}
+/* schedule */
+
+.schedule-banner{
+  height:30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(64,145,108);
+  background: rgb(141,194,111);
+background: linear-gradient(152deg, rgba(141,194,111,0.3956933115042892) 53%, rgba(212,224,52,0.40129555240064774) 96%);
+}
+.schedule-banner h2{
+  font-size: 35px;
+  color: var(--green)
+}
+.schedule-banner p{
+  width: 60%;
+  text-align: center;
+  line-height:1.6;
+  padding:15px;
+  color:gray;
+  font-size: 20px;
+}
+
+/* Venu */
+.venue-border{
+  height:30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(64,145,108);
+  background: rgb(141,194,111);
+background: linear-gradient(152deg, rgba(141,194,111,0.3956933115042892) 53%, rgba(212,224,52,0.40129555240064774) 96%);
+}
+.venue-border h2{
+  font-size: 35px;
+  color: var(--green)
+}
+.venue-border p{
+  width: 60%;
+  text-align: center;
+  line-height:1.6;
+  padding:15px;
+  color:gray;
+  font-size: 20px;
+}
+.maps{
+  margin: 50px 250px;
+}
+.address{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight:100;
+}
+.address h3{
+  color: var(--green);
+  font-size: 25px;
+  font-weight: 200;
+  margin-bottom:10px;
+}
+.address p{
+  font-size: 18px;
+  color: gray;
+  margin-bottom:15px;
+}
+#address-link{
+  text-decoration: none;
+  color: var(--green);
+  margin:10px 0;
+}
+.chicago-theatre{
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-start;
+}
+
+.Four-Seasons{
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-start;
+}
+
+/* Table-1 */
+.table-1{
+  margin:50px 350px;
+  color:gray;
+}
+
+.table-1 table{
+  border-collapse: separate;
+  border-spacing: 0 2rem;
+}
+
+table td{
+  padding-left: 50px;
+}
+.table-1 h4{
+  color: var(--green);
+ padding-bottom:10px;
+}
+
+table a{
+  color: gray;
+}
+table a:hover{
+  color: var(--gray)
+}
+.table-title{
+  font-size: 25px;
+  color: var(--green);
+}
+
+.title-date{
+  font-size:18px;
+}
+
+.table-2 table{
+  border-collapse: separate;
+  border-spacing: 0 2rem;
+}
+
+@media (max-width: 767px){
+  .logo{
+    font-size: 25px;
+    padding:10px 0 5px;
+    margin-right: 200px;
+  }
+  .header-index{
+    margin: 0;
+  }
+  
+  .nav{
+    display: none;
+    width: 100%;
+  }
+  .hamburger{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+.date{
+  display: none;
+}
+  .nav.show{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-links a{
+    margin-bottom: 10px;
+  }
+  .register-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .register-home h4{
+    font-size: 28px;
+  }
+  .register-home p{
+    font-size: 20px;
+    width: 75%;
+  }
+
+  
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .main-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .main-wrapper p{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+ 
+.article h4{
+  font-size: 20px;
+  color:gray;
+}
+.article p{
+width: 90%;
+margin-left: 20px;
+}
+  .footer-items{
+    display:none;
+  }
+
+  .speakers-banner p{
+    width:100%;
+  }
+  .aaroni{
+    margin:30px 30px;
+    display:flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .aaroni-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aaroni-context p{
+    width:100%;
+  }
+  .aaroni-profile{
+    margin-bottom: 20px;
+  }
+
+  /* adam-speaker */
+  .adam{
+    margin:30px 30px;
+    display:flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .adam-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .adam-context p{
+    width:100%;
+  }
+  .adam-profile{
+    margin-bottom: 20px;
+  }
+  /* ajself-speaker */
+  .ajself{
+    margin:30px 30px;
+    display:flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .ajself-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ajself-context p{
+    width:100%;
+  }
+  .ajself-profile{
+    margin-bottom: 20px;
+  }
+
+  /* speaker-armanghosh */
+  .armanghosh{
+    margin:30px 30px;
+    display:flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .armanghosh-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .armanghosh-context p{
+    width:100%;
+  }
+  .armanghosh-profile{
+    margin-bottom: 20px;
+  }
+  /* speaker-bermon */
+  .bermon{
+    margin:30px 30px;
+    display:flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .bermon-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bermon-context p{
+    width:100%;
+  }
+  .bermon-profile{
+    margin-bottom: 20px;
+  }
+  /* speaker-shaye */
+  .shay{
+    margin:30px 30px;
+    display:flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .shay-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shay-context p{
+    width:100%;
+  }
+  .shay-profile{
+    margin-bottom: 20px;
+  }
+
+  /* Register-Page */
+  .register-banner h2{
+    font-size: 35px;
+  }
+  .register-banner p{
+    font-size: 20px;
+    width: 100%;
+  }
+  .main{
+    margin: 30px 30px;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .pass-description h2,.pass-description h5,.pass-description p{
+    text-align: center;
+  }
+  .pass-description p{
+    width: 100%;
+  }
+  .main h3{
+    text-align: center;
+  }
+  .main ul{
+    margin-bottom: 10px;
+  }
+
+  .venue-border p{
+    width: 100%;
+  }
+
+  .maps{
+    margin: 30px 30px;
+  }
+  .chicago-theatre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .address{
+    width: 100%;
+  }
+  .chicago-theatre iframe{
+    width: 350px;
+    margin-top:20px;
+  }
+
+  .Four-Seasons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Four-Seasons iframe{
+    width: 350px;
+    margin-top:20px;
+  }
+  .table-1{
+    margin: 30px 30px;
+  }
+  .table-1 td{
+    padding-left: 10px;
+  }
+
+  .schedule-banner p{
+    width:100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1200px){
+  .logo{
+    font-size:30px;
+  }
+
+  .nav-links a{
+    font-size:15px;
+    padding-left: 15px;
+  }
+
+  .main-wrapper{
+    margin: 30px 2rem;
+  }
+  .article img{
+    width:220px;
+    height:150px;
+  }
+
+  .speakers-list{
+    margin:30px 30px;
+    padding:30px;
+  }
+  .aaroni,.adam, .ajself, .armanghosh, .bermon, .shay {
+    width:100%;
+    margin: 0;
+  }
+
+  .table-1{
+    margin:30px;
+  }
+
+  .main{
+    margin:30px;
+  }
+  .banner h2{
+    padding-top: 20px;
+  }
+
+  .map iframe{
+    width:400px;
+  }
+  .Four-Seasons{
+    margin-top:50px;
+  }
+  .address{
+    width:100%;
+  }
+  .maps{
+    margin: 30px;
+    width:80%;
+  }
+  .adam, .ajself, .armanghosh, .bermon, .shay{
+    margin-top:20px;
+  }
+}
